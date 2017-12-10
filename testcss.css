@@ -21,7 +21,8 @@ ul li{
     border:none;
     padding-left:0;
     margin-bottom:0;
-    padding-bottom:7px;
+      padding-top:0;
+    padding-bottom:0;
     /*display:none !important;*/
 }
 
@@ -49,8 +50,9 @@ body.v2 #payment_request_expiry_date{
 }
 @media only screen and (max-width: 767px) {
     body.v2 #payment_request_expiry_date{
-        width:160px;
+        width:92%;
     }
 }
+
 
  
