@@ -45,6 +45,9 @@ input[type="text"],input[type="tel"] {
 .control-label{
     font-weight:bold;
 }
+input[type="text"]:focus{
+    box-shadow: 0 0 7px #0b7f81 !important;
+}
 body.v2 #payment_request_expiry_date{
     width:230px;
 }
